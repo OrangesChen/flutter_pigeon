@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc60db88-0545-40e3-8202-840726938517" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_4_XL_API_30]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xwYvcF9qIKmEOvFiGJYA2BdpAk" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc60db88-0545-40e3-8202-840726938517" name="Default Changelist" comment="" />
+      <created>1631267849965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631267849965</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="939" height="305" key="GridCell.Tab.0.bottom" timestamp="1631268097423">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="305" key="GridCell.Tab.0.bottom/148.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1631268097423" />
+    <state width="939" height="305" key="GridCell.Tab.0.center" timestamp="1631268097421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="305" key="GridCell.Tab.0.center/148.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1631268097421" />
+    <state width="939" height="305" key="GridCell.Tab.0.left" timestamp="1631268097420">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="305" key="GridCell.Tab.0.left/148.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1631268097420" />
+    <state width="939" height="305" key="GridCell.Tab.0.right" timestamp="1631268097422">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="305" key="GridCell.Tab.0.right/148.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1631268097422" />
+    <state x="726" y="267" key="RollbackChangesDialog" timestamp="1631268000272">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="726" y="267" key="RollbackChangesDialog/148.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1631268000272" />
+  </component>
+</project>
