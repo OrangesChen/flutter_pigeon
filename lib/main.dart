@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    // 初始化 method channel
+    // 注入 method channel
     MyApi.setup(FTLApiManager());
   }
 
