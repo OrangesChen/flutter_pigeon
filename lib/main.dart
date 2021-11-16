@@ -1,14 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pigeon/api_generated.dart';
 import 'package:flutter_pigeon/home.dart';
 
-void main() {
+import 'api_flutter.dart';
+
+void main() async {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    super.initState();
+    // 初始化 method channel
+    MyApi.setup(FTLApiManager());
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,4 +43,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

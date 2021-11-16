@@ -5,23 +5,21 @@ import './api_generated.dart';
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: TextWords(),
-      )
-    );
+        body: Center(
+      child: TextWords(),
+    ));
   }
 }
 
 class TextWords extends StatefulWidget {
   const TextWords({Key? key}) : super(key: key);
 
-   @override
+  @override
   State<StatefulWidget> createState() {
-    return new TextWordsState();
+    return TextWordsState();
   }
 }
 
@@ -31,29 +29,27 @@ class TextWordsState extends State<TextWords> {
     final api = Api();
     final res = await api.getPlatformVersion();
     // ignore: avoid_print
-    print(res.string);
-    return res.string;
+    print(res);
+    return res;
   }
+
   String version = '';
   @override
   Widget build(BuildContext context) {
-    return Row(
-        children: [
-        Center(
+    return Row(children: [
+      Center(
           child: ElevatedButton(
-          child: const Text("call native method"),
-          onPressed: () => callNativePlatform().then((value) => setState(() {
-             version = value!;
-             })),
-        )
-        ),
-        // const Flexible(child: SizedBox(), fit: FlexFit.tight),
-        const Padding(padding: EdgeInsets.fromLTRB(20, 0, 0, 0)),
-        Align(
-              alignment: Alignment.centerRight,
-              child: Text(version),
-        ),
-        ]
-      );
+        child: const Text("call native method"),
+        onPressed: () => callNativePlatform().then((value) => setState(() {
+              version = value!;
+            })),
+      )),
+      // const Flexible(child: SizedBox(), fit: FlexFit.tight),
+      const Padding(padding: EdgeInsets.fromLTRB(20, 0, 0, 0)),
+      Align(
+        alignment: Alignment.centerRight,
+        child: Text(version),
+      ),
+    ]);
   }
 }

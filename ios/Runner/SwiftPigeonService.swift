@@ -2,9 +2,8 @@ import Flutter
 import UIKit
 
 public class SwiftPigeonService: NSObject, FLTApi {
-    public func getPlatformVersionWithError(_ error: AutoreleasingUnsafeMutablePointer<FlutterError?>) -> FLTVersion? {
-        let result = FLTVersion.init()
-        result.string = "iOS " + UIDevice.current.systemVersion
-        return result
+    public func getPlatformVersion(completion: @escaping (String?, FlutterError?) -> Void) {
+        let result = "iOS " + UIDevice.current.systemVersion
+        completion(result, nil)
     }
 }
